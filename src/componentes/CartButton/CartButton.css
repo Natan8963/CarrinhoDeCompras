@@ -1,0 +1,14 @@
+.cart__button{
+ width: 90px;
+ height: 45px;
+ border-radius: 5px;
+ padding-left: 20px;
+ display: flex;
+ align-items: center;
+
+ 
+}
+.cart__icon{
+  margin-right: 10px; /* Ajuste este valor conforme necessário */
+font-weight:  800;
+}
