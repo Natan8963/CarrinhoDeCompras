@@ -13,3 +13,38 @@ body {
   
   
 }
+.QtySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 10rem;
+  font-size: 1.3rem;
+}
+
+.QuantityPicker {
+  display: flex;
+  gap: 2px;
+  position: relative;
+}
+
+.QuantityPicker button,
+.QuantityPicker input {
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+.QuantityPicker button {
+  width: 3rem;
+  height: 3rem;
+}
+
+.QuantityPicker input {
+  width: 4rem;
+  height: 3rem;
+  text-align: center;
+}
+
+.QuantityPicker input::-webkit-inner-spin-button {
+  display: none;
+}
